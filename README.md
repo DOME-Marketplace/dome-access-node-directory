@@ -15,7 +15,7 @@ organizations:
     url: "https://123.162.194.139:8080"
 ```
 
-> NOTE: The `publicKey` field is the public key of the organization that is used to verify the signature of the JWT token. This public key is the one generated and used to sign the Blockchain transactions in the DLT-Adapter and the generated Token in the Replication Service.
+> NOTE: The `publicKey` field is the public key of the organization that is used to verify the signature of the JWT token. This key is the same of the key pair and used to sign the Blockchain transactions in the DLT-Adapter and the generated Token in the Replication Service.
 
 > NOTE 2: The `url` must be the URL of the organization's Access Node, and it can be an IP address or a domain. 
 
